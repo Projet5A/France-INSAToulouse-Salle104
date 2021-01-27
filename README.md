@@ -1,6 +1,6 @@
 # Défi IA 2021 - Team Salle104 
 
-This GitHub deposit contains all the necessary files to reproduce the results performed by the team Salle104 (Adeline Cénac, Luc Dubreuil, Lucile Vallet and Jérôme Xiol) for the 5th edition of ["Défi IA"](https://www.kaggle.com/c/defi-ia-insa-toulouse/overview). 
+This GitHub deposit contains all the necessary files to reproduce the results performed by the team Salle104 from INSA Toulouse (Adeline Cénac, Luc Dubreuil, Lucile Vallet and Jérôme Xiol) for the 5th edition of ["Défi IA"](https://www.kaggle.com/c/defi-ia-insa-toulouse/overview). 
 
 ## Results
 
@@ -15,10 +15,13 @@ All the Python libraries required for this challenge are listed in the requireme
 To build a functional conda environment execute the following lines:
 
 ```bash
-conda create -n Salle104 python=3.8
+conda create -n Salle104 python=3.7.6
 conda activate Salle104
 pip install -r requirements.txt
+pip install torch===1.7.0 torchvision===0.8.1 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
+
+Due to some problems with CUDA, we were not able to install PyTorch library (torch) from a requirements.txt file. Thus, the last line allows downloading this library without error. 
 
 ## Usage 
 
