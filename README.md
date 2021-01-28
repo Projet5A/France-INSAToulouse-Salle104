@@ -1,6 +1,6 @@
 # Défi IA 2021 - Team Salle104 
 
-This GitHub deposit contains all the necessary files to reproduce the results performed by the team Salle104 from INSA Toulouse (Adeline Cénac, Luc Dubreuil, Lucile Vallet and Jérôme Xiol) for the 5th edition of ["Défi IA"](https://www.kaggle.com/c/defi-ia-insa-toulouse/overview). 
+This GitHub repository contains all the necessary files to reproduce the results performed by the team Salle104 from INSA Toulouse (Adeline Cénac, Luc Dubreuil, Lucile Vallet and Jérôme Xiol) for the 5th edition of ["Défi IA"](https://www.kaggle.com/c/defi-ia-insa-toulouse/overview). 
 
 ## Results
 
@@ -25,7 +25,7 @@ Due to some problems with CUDA, we were not able to install PyTorch library (tor
 
 ## Usage 
 
-In order to reproduce the results, you need to clone this GitHub deposit and run the Python script blabla.py with the following bash command (from a terminal) : 
+In order to reproduce the results, you need to clone this GitHub repository and run the Python script blabla.py with the following bash command (from a terminal) : 
 
 ```bash
 python blabla.py
