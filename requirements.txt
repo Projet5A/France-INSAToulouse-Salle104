@@ -4,3 +4,4 @@ pandas==1.1.5
 numpy==1.18.5
 sentencepiece==0.1.91
 transformers==3.5.1
+ipywidgets==7.6.3

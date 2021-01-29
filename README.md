@@ -21,14 +21,14 @@ pip install -r requirements.txt
 pip install torch===1.7.0 torchvision===0.8.1 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-Due to some problems with CUDA, we were not able to install PyTorch library (torch) from a requirements.txt file. Thus, the last line allows downloading this library without error. 
+Nonetheless, we strongly recommend to have a NVIDIA GPU on your system and a driver installed to avoid technical issues.
 
 ## Usage 
 
-In order to reproduce the results, you need to clone this GitHub repository and run the Python script blabla.py with the following bash command (from a terminal) : 
+In order to reproduce the results, you need to clone this GitHub repository and run the Python script train_and_predict.py with the following bash command (from a terminal) : 
 
 ```bash
-python blabla.py
+python train_and_predict.py
 ```
 
 
